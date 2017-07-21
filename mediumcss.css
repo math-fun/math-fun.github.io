@@ -1,0 +1,420 @@
+body
+	{
+		background-image:url("background.jpg");
+	}
+	.left1{
+		position:relative;
+			animation-name: l;
+			animation-duration: 1s;
+			top:130px;
+			right:650%;
+		}
+		
+		@keyframes l {
+    
+    0% { top:0px; right:0px;}
+ 	
+    100% { top:130px; right:650%;}
+}
+.right1{
+		position:relative;
+			animation-name: r;
+			animation-duration: 1s;
+			top:0px;
+			right:0px;
+		}
+		
+		@keyframes r {
+    
+    0% { top:130px; right:650%;}
+ 	
+    100% { top:0px;right:0px;}
+}
+.left2{
+		position:relative;
+			animation-name: l2;
+			animation-duration: 1s;
+			top:35px;
+			right:650%;
+		}
+		
+		@keyframes l2 {
+    
+    0% { top:0px; right:0px;}
+ 	
+    100% { top:35px;right:650%;}
+}
+.right2{
+		position:relative;
+			animation-name: r2;
+			animation-duration: 1s;
+			top:0px;
+			right:0px;
+		}
+		
+		@keyframes r2 {
+    
+    0% { top:35px; right:650%;}
+ 	
+    100% { top:0px;right:0px;}
+}
+.left3{
+		position:relative;
+			animation-name: l3;
+			animation-duration: 1s;
+			top:-60px;
+			right:650%;
+		}
+		
+		@keyframes l3 {
+    
+    0% { top:0px; right:0px;}
+ 	
+    100% { top:-60px;right:650%;}
+}
+.right3{
+		position:relative;
+			animation-name: r3;
+			animation-duration: 1s;
+			top:0px;
+			right:0px;
+		}
+		
+		@keyframes r3 {
+    
+    0% { top:-60px; right:650%;}
+ 	
+    100% { top:0px;right:0px;}
+}
+		.ani1 {
+			position:relative;
+			animation-name: fall1;
+			animation-duration: 1s;
+			top:200px;
+			left:444.4%;
+			}
+		@keyframes fall1 {
+    
+    0% { top:0px; left:0px;}
+ 	
+    100% { top:200px;left:444.4%;}
+}
+
+.ani1p {
+			position:relative;
+			animation-name: fall1p;
+			animation-duration: 1s;
+			top:200px;
+			left:755.5%;
+			}
+		@keyframes fall1p {
+    
+    0% { top:0px; left:0px;}
+ 	
+    100% { top:200px;left:755.5%;}
+}
+ .ani2 {
+			position:relative;
+			animation-name: fall2;
+			animation-duration: 1s;
+			top:90px;
+			left:444.4%;
+			}
+		@keyframes fall2 {
+    
+    0% { top:0px; left:0px;}
+ 	
+    100% { top:90px;left:444.4%;}
+}
+.ani2p {
+			position:relative;
+			animation-name: fall2p;
+			animation-duration: 1s;
+			top:90px;
+			left:755.5%;
+			}
+		@keyframes fall2p {
+    
+    0% { top:0px; left:0px;}
+ 	
+    100% { top:90px;left:755.5%;}
+}
+.ani3 {
+			position:relative;
+			animation-name: fall3;
+			animation-duration: 1s;
+			top:-20px;
+			left:444.4%;
+			}
+		@keyframes fall3 {
+    
+    0% { top:0px; left:0px;}
+ 	
+    100% { top:-20px;left:444.4%;}
+}
+.ani3p {
+			position:relative;
+			animation-name: fall3p;
+			animation-duration: 1s;
+			top:-20px;
+			left:755.5%;
+			}
+		@keyframes fall3p {
+    
+    0% { top:0px; left:0px;}
+ 	
+    100% { top:-20px;left:755.5%;}
+}
+.ani4 {
+			position:relative;
+			animation-name: fall4;
+			animation-duration: 1s;
+			top:-130px;
+			left:444.4%;
+			}
+		@keyframes fall4 {
+    
+    0% { top:0px; left:0px;}
+ 	
+    100% { top:-130px;left:444.4%;}
+}
+.ani4p {
+			position:relative;
+			animation-name: fall4p;
+			animation-duration: 1s;
+			top:-130px;
+			left:755.5%;
+			}
+		@keyframes fall4p {
+    
+    0% { top:0px; left:0px;}
+ 	
+    100% { top:-130px;left:755.5%;}
+}
+.ani5 {
+			position:relative;
+			animation-name: fall5;
+			animation-duration: 1s;
+			top:-240px;
+			left:444.4%;
+			}
+		@keyframes fall5 {
+    
+    0% { top:0px; left:0px;}
+ 	
+    100% { top:-240px;left:444.4%;}
+}
+.ani5p {
+			position:relative;
+			animation-name: fall5p;
+			animation-duration: 1s;
+			top:-240px;
+			left:755.5%;
+			}
+		@keyframes fall5p {
+    
+    0% { top:0px; left:0px;}
+ 	
+    100% { top:-240px;left:755.5%;}
+}
+    .ani12 {
+			position:relative;
+			animation-name: rise1;
+			animation-duration: 1s;
+			left:0px;
+			}
+		@keyframes rise1 {
+    0%   { left:444.4%;top:200px;}
+    
+    100%  {  left:0px;top:0px;}
+}
+.ani12r {
+			position:relative;
+			animation-name: rise1r;
+			animation-duration: 1s;
+			left:0px;
+			}
+		@keyframes rise1r {
+    0%   { left:755.5%;top:200px;}
+    
+    100%  {  left:0px;top:0px;}
+}
+.ani22r {
+			position:relative;
+			animation-name: rise2r;
+			animation-duration: 1s;
+			left:0px;
+			}
+		@keyframes rise2r {
+    0%   { left:755.5%;top:90px;}
+    
+    100%  {  left:0px;top:0px;}
+}
+.ani22 {
+			position:relative;
+			animation-name: rise2;
+			animation-duration: 1s;
+			left:0px;
+			}
+		@keyframes rise2 {
+    0%   { left:444.4%;top:90px;}
+    
+    100%  {  left:0px;top:0px;}
+}
+.ani32 {
+			position:relative;
+			animation-name: rise3;
+			animation-duration: 1s;
+			left:0px;
+			}
+		@keyframes rise3 {
+    0%   { left:444.4%;top:-20px;}
+    
+    100%  {  left:0px;top:0px;}
+}
+.ani32r {
+			position:relative;
+			animation-name: rise3r;
+			animation-duration: 1s;
+			left:0px;
+			}
+		@keyframes rise3r {
+    0%   { left:755.5%;top:-20px;}
+    
+    100%  {  left:0px;top:0px;}
+}
+.ani42 {
+			position:relative;
+			animation-name: rise4;
+			animation-duration: 1s;
+			left:0px;
+			}
+		@keyframes rise4 {
+    0%   { left:444.4%;top:-130px;}
+    
+    100%  {  left:0px;top:0px;}
+}
+.ani42r {
+			position:relative;
+			animation-name: rise4r;
+			animation-duration: 1s;
+			left:0px;
+			}
+		@keyframes rise4r {
+    0%   { left:755.5%;top:-130px;}
+    
+    100%  {  left:0px;top:0px;}
+}
+.ani52 {
+			position:relative;
+			animation-name: rise5;
+			animation-duration: 1s;
+			left:0px;
+			}
+		@keyframes rise5 {
+    0%   { left:444.4%;top:-240px;}
+    
+    100%  {  left:0px;top:0px;}
+}
+.ani52r {
+			position:relative;
+			animation-name: rise5r;
+			animation-duration: 1s;
+			left:0px;
+			}
+		@keyframes rise5r {
+    0%   { left:755.5%;top:-240px;}
+    
+    100%  {  left:0px;top:0px;}
+}
+div.header
+{
+box-shadow: 3px 3px 3px #888888;
+width:98%;
+height:90px;
+margin-left:auto;
+margin-right:auto;
+top:0px;
+background-color:#3aa8f8;
+border-radius:20px;
+}
+div p
+{
+color:white;
+padding-top:10px;
+text-align:center;
+font-family:courier;
+font-size:45px;
+}
+div.ni{
+margin:20px;
+}
+input{border: 5px solid transparent;}
+    .btn-circle {
+  width: 90px;
+  height: 90px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 100%;
+  background-color:orange;
+}
+ .btn-circles {
+  width: 75px;
+  height: 75px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 100%;
+  background-color:#3aa8f8;
+}
+body{
+background-color:#f7f6f4;
+}
+div.numbers{
+float:left;
+font-family:courier;
+padding-left:75px;
+}
+div.signs{
+float:right;
+padding-right:75px;
+margin-top:80px;
+}
+input#go
+{
+	width:100px;
+	height:100px;
+	font-size:30px;
+	font-family:courier;
+	padding-left:10px;
+	border-radius:20px;
+	background-color:orange;
+}
+.foot{
+clear:both;
+}
+p.cap
+{
+	float:left;
+	padding-left:280px;
+	text-align:center;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:40px;
+	font-family:comic sans MS;
+	color:orange;
+}
+div.layout
+{
+	margin-left:auto;
+	width:1300px;
+	margin-right:auto;
+}
+.foot
+{
+clear:right;
+color:#3aa8f8;
+font-family:Brush script mt;
+margin-right:12%;
+margin-bottom:20px;
+}

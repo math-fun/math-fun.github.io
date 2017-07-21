@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+	<link rel="stylesheet" href="materialize.css"/>
+	<link rel="stylesheet" href="easycss.css"/>
+	<script type="text/javascript" src="hardsrc.js"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+      <script type="text/javascript" src="materialize.js"></script>
+	<body id="body">
+	  <nav class="light-blue lighten-1" >
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
+      <ul class="left hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="animate.html">Restart</a></li>
+        <li><a href="how_to_play.html">How to play?</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+	  <div style="float:right;font-size:30px;font-family:verdana" id="time">90s</div>	
+    </div>
+	</nav>
+	<div class="layout">
+	<div class="numbers">
+		<div  align = "center" class="ni">
+			<input  type = "button" class="btn btn-success btn-circle"  onclick="fal()" id="n1">
+		</div>
+		<div  align = "center" class="ni">
+			<input  type = "button" class="btn btn-success btn-circle"  onclick="fal2()" id="n2">
+		</div>
+		<div  align = "center" class="ni">
+			<input  type = "button" class="btn btn-success btn-circle"  onclick="fal3()" id="n3">
+		</div>
+		<div  align = "center" class="ni">
+			<input  type = "button" class="btn btn-success btn-circle"  onclick="fal4()" id="n4">
+		</div>
+		<div  align = "center" class="ni">
+			<input  type = "button" class="btn btn-success btn-circle"  onclick="fal5()" id="n5">
+		</div>
+	</div>
+	<p class="cap">
+	Test Your Speed!!
+	</p>
+	<div class="signs">
+		<div  align = "center" class="ni" >
+			<input  type = "button" class="btn btn-success btn-circles"  id="sp" onclick="left1()" value="+">
+		</div>
+		<div align = "center" class="ni">
+			<input  type = "button" class="btn btn-success btn-circles"  id="sm" onclick="left2()" value="-">
+		</div>
+		<div  align = "center" class="ni">
+			<input  type = "button" class="btn btn-success btn-circles"  id="si" onclick="left3()" value="*">
+		</div>
+		<div  align="center">
+		<input type="button" class="btn btn-primary"  value="Go!" title="click to start" onclick="start()" id="go">
+	</div>
+	</div>
+	<p class="foot" id="scr">
+	Score : 0
+	</p>
+	</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,82 @@
+<html>
+<head>
+<link href="materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<style>
+p#2{
+	margin:50%;
+	}
+	body{
+background-color:#f7f6f4;
+}
+h5{
+	font-family:courier;
+	color:orange;
+  }
+  h3{
+	font-family:courier;
+	color:orange;
+  }
+</style>
+<head>
+<script>
+var a=["Untitled.png","Untitled2.png","Untitled1.png","Untitled3.png" ];
+var b = ["Step 1:Click Let's Play to start","Step 2:Click GO","Step 3:Select the bubbles","Step 4:Here is your score"]
+var count = 0;
+function auto()
+{
+	window.setInterval(next,3000);
+}
+function next()
+{
+	count++;
+	if(count>3)
+		count = 0;
+	var d = document.getElementById("img");
+	d.src = a[count];
+	d = document.getElementById("step");
+	d.innerHTML = b[count]
+}
+</script>
+</head>
+<body onload="auto()">
+ <nav class="light-blue lighten-1" >
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
+      <ul class="left hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="animate.html">Play!</a></li>
+        <li><a href="how_to_play.html">How to play?</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <h5 align="center"> How to play</h5>
+  <p id="2" style="width:80%;margin-left:auto;margin-right:auto;">
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Here is an opportunity to test your basics. The game is simple, you have to select the correct operand 
+  and opertator within the given time (90 seconds) . For those of you who don't know what operators and operands are, not to worry. The blue   
+  bubbles on your left are operands and the orange bubbles on your right are operators. 
+  </p>
+  <p id="3" style="width:80%;margin-left:auto;margin-right:auto;">
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Using the operands and operators on the screen , you have to arrive at the number in the blue box at the right bottom of your screen to proceed
+  to the next level. You can try, try and try till you succeed but remember the time is ticking!!! With every level you clear, you earn a point 
+  that gets added to your "SCORE" that can be seen at the bottom of your screen.  
+  </p>
+<div align="center">
+<h3>Follow these steps</h5>
+<h5  id="step" >Step 1:Click Let's Play to start</h5>
+<img id = "img" src = "Untitled.png" width = "940px" height = "457px"/>
+<br/>
+<button value = "next" onclick = "next()" class="btn" style="background-color:orange">NEXT</button>
+
+
+<h2 align="center" ><i>Now you are all set to roll!</i></p>
+</div>
+</body>
+</html>
